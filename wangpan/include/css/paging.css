@@ -1,0 +1,19 @@
+.paging
+{
+	margin-left: 40px;
+}
+
+.np
+{
+	width: 70px;
+}
+
+.paging li
+{
+	width: 30px;
+	height: 30px;
+	display: block;
+	border: 1px solid blue;
+	float: left;
+	margin-right: 10px;
+}

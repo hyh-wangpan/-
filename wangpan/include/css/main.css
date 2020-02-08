@@ -1,0 +1,691 @@
+body
+{
+	overflow: hidden;
+}
+
+#head
+{
+	width: 100%;
+	height: 60px;
+	background-color: #1D7DF4;
+}
+
+#sidebar
+{
+	position: absolute;
+	width: 200px;
+	top: 60px;
+	bottom: 0px;
+	left: 0px;
+	background-color: #E1F4FC;
+}
+
+.main
+{
+	position: absolute;
+	top: 60px;
+	left: 200px;
+	right: 0px;
+	bottom: 0px;
+}
+
+#headbar li
+{
+	float: left;
+	list-style-type: none;
+}
+
+#headimg
+{
+	position: absolute;
+	width: 100px;
+	height: 60px;
+	right: 0;
+	top: 0;
+}
+
+#headimg img
+{
+	float: right;
+	width: 40px;
+	border-radius: 50%;
+	margin: 10px;
+	margin-right: 20px;
+}
+
+#headinfo
+{
+	position: absolute;
+	z-index: 99;
+	display: none;
+	top: 60px;
+	right: 0px;
+	width: 100px;
+	background-color: #1D7DF4;
+	color: #F4F4F4;
+	border: 1px solid #1D19CA;
+}
+
+#headinfo ul li
+{
+	list-style-type: none;
+	height: 30px;
+	margin: 0px 10px;
+	font: 13px arial;
+	line-height: 30px;
+}
+
+#headinfo ul li a
+{
+    text-decoration: none;
+    color: #F4F4F4;
+}
+
+#logout
+{
+	cursor: pointer;
+}
+
+#infotext
+{
+	overflow: hidden;
+	text-overflow: ellipsis;
+	width: 80px;
+}
+
+#sidebar
+{
+	border-right: 1px solid;
+	border-color: #BCC1C5;	
+}
+
+#wangpan
+{
+	display: block;
+	height: 60px;
+	width: 80px;
+	background:url(../img/headbar1.png);
+	border-left: 1px solid;
+	border-right: 1px solid;
+	background-color: #101CEC;
+	border-color: #1D19CA;
+}
+
+#fenxiang
+{
+	display: block;
+	height: 60px;
+	width: 86px;
+	background:url(../img/headbar2.png);
+}
+
+#gongxiang
+{
+	display: block;
+	height: 60px;
+	width: 100px;
+	background:url(../img/headbar3.png);
+}
+
+#sidebar ul
+{
+	padding-top: 10px;
+	color: #384463;
+}
+
+#sidebar ul li
+{
+	list-style-type: none;
+	font: 15px Microsoft YaHei;
+	height: 42px;
+	width: 200px;
+	cursor: pointer;
+}
+
+#sidebar ul li :hover
+{
+	background-color: #72C3F4;
+}
+
+.seled
+{
+	background-color: #72C3F4;
+	color: #225CF2;
+}
+
+#sidebar ul li a
+{
+	display: block;
+	padding-left: 40px;
+	line-height: 42px;
+}
+
+#recycle
+{
+	border-bottom: 1px solid #C7D7E1;
+}
+
+#sharetxt
+{
+	border-top: 1px solid;
+	border-bottom: 1px solid;
+	border-color: #C7D7E1;
+}
+
+#space
+{
+	position: absolute;
+	display: block;
+	width: 100%;
+	bottom: 20px;
+}
+
+#total
+{
+	display: block;
+	position: relative;
+	height: 5px;
+	margin: 0 25px 5px;
+	background-color: #CDEBF0;
+	border: 1px solid #9CB1B8;
+}
+
+#used
+{
+	position: absolute;
+	display: block;
+	height: 7px;
+	left: -1px;
+	top: -1px;
+	background-color: #3a9fe7;
+	border-radius: 4px;
+}
+
+#space-content
+{
+	margin: 0 25px;
+	font: 13px arial;
+}
+
+#toolbar
+{
+	height: 52px;
+	border-bottom: 1px solid #BCC1C5;
+}
+
+#toolbar-left
+{
+	float: left;
+	padding: 10px 24px;
+}
+
+.item
+{
+	display: inline;
+	float: left;
+	margin: 0 9px 0 0;
+	cursor: pointer;
+	font: 14px Microsoft YaHei;
+}
+
+#tbupload
+{
+	border: 1px solid #3984E5;
+	background-color: #3E94FE;
+	color: #fff;
+	display: block;
+	float: left;
+	height: 30px;
+	width: 77px;
+	border-radius: 4px;
+}
+
+#tbnew
+{
+	display: block;
+	height: 30px;
+	width: 100px;
+	float: left;
+	border: 1px solid #C0D9FE;
+	color: #3b8cff;
+	border-radius: 4px;
+	text-align: center;
+	line-height: 30px;
+}
+
+#tbbt
+{
+	display: block;
+	height: 30px;
+	width: 90px;
+	float: left;
+	border: 1px solid #C0D9FE;
+	color: #3b8cff;
+	border-radius: 4px;
+	text-align:center;
+	line-height: 30px;
+}
+
+#upbutton
+{
+	width: 77px;
+	height: 30px;
+	line-height: 30px;
+	display: block;
+	text-align:center;
+}
+
+#upinput
+{
+	opacity: 0;
+	display: block;
+	width: 1px;
+	height: 1px;
+}
+
+#toolbar-right
+{
+	float: right;
+	padding: 10px 20px;
+}
+
+#search
+{
+	height: 30px;
+	float: right;
+}
+
+#searchinput
+{
+	height: 30px;
+	float: right;
+	width: 180px;
+	line-height: 30px;
+	border: 1px solid #A9BBCC;
+}
+
+#searchimg
+{
+	float: right;
+	width: 30px;
+	height: 30px;
+	border: 1px solid #a9bbcc;
+	border-left: none;
+}
+
+#searchimg img
+{
+	width: 20px;
+	height: 20px;
+	margin: 5px;
+}
+
+#downloadiframe
+{
+	display: none;
+}
+
+#crumb
+{
+	display: block;
+	height: 36px;
+}
+
+.crumbpath
+{
+	display: block;
+	height: 36px;
+	margin-left: 20px;
+	font: 14px arial;
+	color: #3B8CFF;
+}
+
+.crumbpath :hover
+{
+	color: #0914D3;
+}
+
+.path
+{
+	float: left;
+	height: 36px;
+	line-height:36px;
+	white-space: nowrap;
+	cursor: pointer;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	max-width: 98px;
+}
+
+.path-separator
+{
+	margin: 0 3px;
+	color: #B5B5B5;
+	float: left;
+	height: 36px;
+	line-height: 36px;
+}
+
+#last-path
+{
+	color: #7C87A5;
+	cursor: default;
+}
+
+.genus
+{
+	display: block;
+	height: 36px;
+	margin-left: 20px;
+	font: 14px arial;
+	line-height:36px;
+	color: #7C87A5;
+}
+
+#filelisthead
+{
+	display: block;
+	height: 36px;
+	background-color: #F3F6FC;
+	border-bottom: 1px solid #E5E5E5;
+	margin: 0 0 0 20px;
+}
+
+.column
+{
+	color: #A8A9AA;
+	height: 36px;
+	font: 12px arial;
+	line-height: 36px;
+}
+
+.column-name
+{
+	float: left;
+	width: 65%;
+}
+
+.filename
+{
+	display: block;
+	float: left;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	width: 540px;
+}
+
+.column-size
+{
+	float: left;
+	width: 12%;
+}
+
+.column-time
+{
+	float: left;
+	width: 20%;
+}
+
+.row
+{
+	height: 45px;
+	border-bottom: 1px solid #E5E5E5;
+	list-style-type: none;
+	font: 12px arial;
+	line-height: 45px;
+}
+
+.filelistmain
+{
+	display: block;
+	margin: 0 0 0 20px;
+	overflow-y: auto;
+}
+
+.operate
+{
+	float: right;
+	margin-right: 20px;
+}
+
+.fileicon
+{
+	display: block;
+	width: 30px;
+	height: 30px;
+	float: left;
+	margin: 8px 10px;
+}
+
+.folderico
+{
+	background: url(../img/folderico.png);
+}
+
+.txtico
+{
+	background: url(../img/txtico.png);
+}
+
+.docico
+{
+	background: url(../img/docico.png);
+}
+
+.pptico
+{
+	background: url(../img/pptico.png);
+}
+
+.xlsico
+{
+	background: url(../img/xlsico.png);
+}
+
+.pdfico
+{
+	background: url(../img/pdfico.png);
+}
+
+.codeico
+{
+	background: url(../img/codeico.png);
+}
+
+.imgico
+{
+	background: url(../img/imgico.png);
+}
+
+.audioico
+{
+	background: url(../img/audioico.png);
+}
+
+.videoico
+{
+	background: url(../img/videoico.png);
+}
+
+.zipico
+{
+	background: url(../img/zipico.png);
+}
+
+.fontico
+{
+	background: url(../img/fontico.png);
+}
+
+.exeico
+{
+	background: url(../img/exeico.png);
+}
+
+.btico
+{
+	background: url(../img/btico.png);
+}
+
+.otherico
+{
+	background: url(../img/otherico.png);
+}
+
+#newrow
+{
+	display: none;
+}
+
+.foldername
+{
+	cursor: pointer;
+}
+
+.dialog
+{
+	position: absolute;
+	top: 150px;
+	left:383px;
+	display:none;
+	z-index:50;
+	width: 600px;
+	background-color: #FFF;
+	overflow: hidden;
+	border-radius:5px;
+}
+
+#new-dialog
+{
+	height: 350px;
+}
+
+#link-dialog
+{
+	height: 280px;
+}
+
+.dialog-head
+{
+	height: 40px;
+	background-color: #DDF6FF;
+	border-bottom: 1px solid #68CBEF;
+}
+
+.dialog-head-left
+{
+	position: absolute;
+	left: 15px;
+	font: 15px Microsoft YaHei;
+	line-height: 40px;
+}
+
+.dialog-head-right
+{
+	position: absolute;
+	top: 12px;
+	float: right;
+	right: 10px;
+	cursor: pointer;
+}
+
+.buttondiv
+{
+	height: 32px;
+	padding: 15px 10px;
+	border-bottom: 1px solid #DDD;
+}
+
+#newbt
+{
+	display: block;
+	height: 30px;
+	width: 95px;
+	float: left;
+	border: 1px solid #C0D9FE;
+	color: #3B8CFF;
+	border-radius: 4px;
+	text-align:center;
+	line-height: 30px;
+}
+
+#newlink
+{
+	display: block;
+	height: 30px;
+	width: 115px;
+	float: left;
+	border: 1px solid #C0D9FE;
+	color: #3B8CFF;
+	border-radius: 4px;
+	text-align:center;
+	line-height: 30px;
+}
+
+.dialog-column-name
+{
+	float: left;
+	width: 55%;
+	margin-left: 10px;
+}
+
+.dialog-column-size
+{
+	float: left;
+	width: 15%;
+}
+
+.dialog-column-status
+{
+	float: left;
+	width: 15%;
+}
+
+.dialog-column-handler
+{
+	float: left;
+	width: 10%;
+}
+
+#linktext
+{
+	margin: 30px 20px 15px;
+	font: 15px Microsoft YaHei;
+}
+
+.inputbox
+{
+	border: 1px solid #DDD;
+	width: 490px;
+	height: 38px;
+	font-size: 14px;
+	padding-left: 8px;
+	margin: 15px 50px;
+	border-radius:4px;
+}
+
+#linkstart
+{
+	width: 140px;
+	height: 34px;
+	float: right;
+	margin: 20px 50px 0 0;
+	border-radius:4px;
+	background-color: #00A7DE;
+	border: 1px solid #0381AA;
+	color: #FFF;
+	cursor: pointer;
+}
+
+#errormsg
+{
+	display: block;
+	float: left;
+	line-height: 30px;
+	margin: 10px 0 0 50px;
+	width: 310px;
+	height: 30px;
+	color: #F66495;
+	font: 15px Microsoft YaHei;
+}

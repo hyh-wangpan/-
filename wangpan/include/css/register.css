@@ -1,0 +1,96 @@
+.register
+{
+	width: 350px;
+	height: 320px;
+	margin: 150px auto;
+	border-radius: 5px;
+	box-shadow: 0px 0px 2px 3px #DDD;
+}
+
+.register-main
+{
+	width: 310px;
+	height: 40px;
+	margin: 0px auto 15px;
+}
+
+.inputbox
+{
+	border: 1px solid #ddd;
+	width: 300px;
+	height: 38px;
+	font-size: 14px;
+	padding-left: 8px;
+	border-radius:4px;
+}
+
+
+#errorprompt
+{
+	display: block;
+	width: 310px;
+	height: 30px;
+	color: #f66495;
+	font-size: 13px;
+	line-height: 30px;
+	margin: 0 auto 0;
+}
+
+#checktxt
+{
+	width: 170px;
+	float: left;
+}
+
+#checkimg
+{
+	height: 40px;
+	float: left;
+	margin-left: 10px;
+}
+
+#registerbutton
+{
+	width: 140px;
+	height: 34px;
+	border-radius:4px;
+	background-color: #00A7DE;
+	border: 1px solid #0381AA;
+	color: #fff;
+	font-size: 14px;
+}
+
+#registerbutton:hover
+{
+	background-color: #00bee7;
+	cursor: pointer;
+}
+
+.register h1
+{
+	padding-top: 10px;
+	text-align: center;
+}
+
+.login
+{
+	display: inline-block;
+	text-align: center;
+	height: 32px;
+	width: 138px;
+	line-height: 34px;
+	border: 1px solid #a8a8a8;
+	border-radius:4px;
+	position: relative;
+	top: 1px;
+	margin-left: 15px;
+	font-size: 14px;
+	text-decoration: none;
+	color: #000;
+}
+
+.login:hover
+{
+	background-color: #f0f0f0;
+	cursor: pointer;
+}
